@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A253B3A91D76E60A00042B73 /* 15PUZZLE in Resources */ = {isa = PBXBuildFile; fileRef = A253B3921D76E60A00042B73 /* 15PUZZLE */; };
+		A253B3AA1D76E60A00042B73 /* BLINKY in Resources */ = {isa = PBXBuildFile; fileRef = A253B3931D76E60A00042B73 /* BLINKY */; };
+		A253B3AB1D76E60A00042B73 /* BLITZ in Resources */ = {isa = PBXBuildFile; fileRef = A253B3941D76E60A00042B73 /* BLITZ */; };
+		A253B3AC1D76E60A00042B73 /* BRIX in Resources */ = {isa = PBXBuildFile; fileRef = A253B3951D76E60A00042B73 /* BRIX */; };
+		A253B3AD1D76E60A00042B73 /* CONNECT4 in Resources */ = {isa = PBXBuildFile; fileRef = A253B3961D76E60A00042B73 /* CONNECT4 */; };
+		A253B3AE1D76E60A00042B73 /* GUESS in Resources */ = {isa = PBXBuildFile; fileRef = A253B3971D76E60A00042B73 /* GUESS */; };
+		A253B3AF1D76E60A00042B73 /* HIDDEN in Resources */ = {isa = PBXBuildFile; fileRef = A253B3981D76E60A00042B73 /* HIDDEN */; };
+		A253B3B01D76E60A00042B73 /* INVADERS in Resources */ = {isa = PBXBuildFile; fileRef = A253B3991D76E60A00042B73 /* INVADERS */; };
+		A253B3B11D76E60A00042B73 /* KALEID in Resources */ = {isa = PBXBuildFile; fileRef = A253B39A1D76E60A00042B73 /* KALEID */; };
+		A253B3B21D76E60A00042B73 /* MAZE in Resources */ = {isa = PBXBuildFile; fileRef = A253B39B1D76E60A00042B73 /* MAZE */; };
+		A253B3B31D76E60A00042B73 /* MERLIN in Resources */ = {isa = PBXBuildFile; fileRef = A253B39C1D76E60A00042B73 /* MERLIN */; };
+		A253B3B41D76E60A00042B73 /* MISSILE in Resources */ = {isa = PBXBuildFile; fileRef = A253B39D1D76E60A00042B73 /* MISSILE */; };
+		A253B3B51D76E60A00042B73 /* PONG in Resources */ = {isa = PBXBuildFile; fileRef = A253B39E1D76E60A00042B73 /* PONG */; };
+		A253B3B61D76E60A00042B73 /* PONG2 in Resources */ = {isa = PBXBuildFile; fileRef = A253B39F1D76E60A00042B73 /* PONG2 */; };
+		A253B3B71D76E60A00042B73 /* PUZZLE in Resources */ = {isa = PBXBuildFile; fileRef = A253B3A01D76E60A00042B73 /* PUZZLE */; };
+		A253B3B81D76E60A00042B73 /* SYZYGY in Resources */ = {isa = PBXBuildFile; fileRef = A253B3A11D76E60A00042B73 /* SYZYGY */; };
+		A253B3B91D76E60A00042B73 /* TANK in Resources */ = {isa = PBXBuildFile; fileRef = A253B3A21D76E60A00042B73 /* TANK */; };
+		A253B3BA1D76E60A00042B73 /* TETRIS in Resources */ = {isa = PBXBuildFile; fileRef = A253B3A31D76E60A00042B73 /* TETRIS */; };
+		A253B3BB1D76E60A00042B73 /* TICTAC in Resources */ = {isa = PBXBuildFile; fileRef = A253B3A41D76E60A00042B73 /* TICTAC */; };
+		A253B3BC1D76E60A00042B73 /* UFO in Resources */ = {isa = PBXBuildFile; fileRef = A253B3A51D76E60A00042B73 /* UFO */; };
+		A253B3BD1D76E60A00042B73 /* VBRIX in Resources */ = {isa = PBXBuildFile; fileRef = A253B3A61D76E60A00042B73 /* VBRIX */; };
+		A253B3BE1D76E60A00042B73 /* VERS in Resources */ = {isa = PBXBuildFile; fileRef = A253B3A71D76E60A00042B73 /* VERS */; };
+		A253B3BF1D76E60A00042B73 /* WIPEOFF in Resources */ = {isa = PBXBuildFile; fileRef = A253B3A81D76E60A00042B73 /* WIPEOFF */; };
+		A253B3C21D76E67000042B73 /* Chip8Emulator.m in Sources */ = {isa = PBXBuildFile; fileRef = A253B3C11D76E67000042B73 /* Chip8Emulator.m */; };
+		A28BD1C81D76E31F001F9ECF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A28BD1C71D76E31F001F9ECF /* main.m */; };
+		A28BD1CB1D76E31F001F9ECF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A28BD1CA1D76E31F001F9ECF /* AppDelegate.m */; };
+		A28BD1CE1D76E31F001F9ECF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A28BD1CD1D76E31F001F9ECF /* ViewController.m */; };
+		A28BD1D11D76E31F001F9ECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A28BD1CF1D76E31F001F9ECF /* Main.storyboard */; };
+		A28BD1D31D76E31F001F9ECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A28BD1D21D76E31F001F9ECF /* Assets.xcassets */; };
+		A28BD1D61D76E31F001F9ECF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A28BD1D41D76E31F001F9ECF /* LaunchScreen.storyboard */; };
+		A28BD1E11D76E31F001F9ECF /* Chip8iPhoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A28BD1E01D76E31F001F9ECF /* Chip8iPhoneTests.m */; };
+		A28BD1EC1D76E31F001F9ECF /* Chip8iPhoneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A28BD1EB1D76E31F001F9ECF /* Chip8iPhoneUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A28BD1DD1D76E31F001F9ECF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A28BD1BB1D76E31F001F9ECF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A28BD1C21D76E31F001F9ECF;
+			remoteInfo = Chip8iPhone;
+		};
+		A28BD1E81D76E31F001F9ECF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A28BD1BB1D76E31F001F9ECF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A28BD1C21D76E31F001F9ECF;
+			remoteInfo = Chip8iPhone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A253B3921D76E60A00042B73 /* 15PUZZLE */ = {isa = PBXFileReference; lastKnownFileType = file; path = 15PUZZLE; sourceTree = "<group>"; };
+		A253B3931D76E60A00042B73 /* BLINKY */ = {isa = PBXFileReference; lastKnownFileType = file; path = BLINKY; sourceTree = "<group>"; };
+		A253B3941D76E60A00042B73 /* BLITZ */ = {isa = PBXFileReference; lastKnownFileType = file; path = BLITZ; sourceTree = "<group>"; };
+		A253B3951D76E60A00042B73 /* BRIX */ = {isa = PBXFileReference; lastKnownFileType = file; path = BRIX; sourceTree = "<group>"; };
+		A253B3961D76E60A00042B73 /* CONNECT4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = CONNECT4; sourceTree = "<group>"; };
+		A253B3971D76E60A00042B73 /* GUESS */ = {isa = PBXFileReference; lastKnownFileType = file; path = GUESS; sourceTree = "<group>"; };
+		A253B3981D76E60A00042B73 /* HIDDEN */ = {isa = PBXFileReference; lastKnownFileType = file; path = HIDDEN; sourceTree = "<group>"; };
+		A253B3991D76E60A00042B73 /* INVADERS */ = {isa = PBXFileReference; lastKnownFileType = file; path = INVADERS; sourceTree = "<group>"; };
+		A253B39A1D76E60A00042B73 /* KALEID */ = {isa = PBXFileReference; lastKnownFileType = file; path = KALEID; sourceTree = "<group>"; };
+		A253B39B1D76E60A00042B73 /* MAZE */ = {isa = PBXFileReference; lastKnownFileType = file; path = MAZE; sourceTree = "<group>"; };
+		A253B39C1D76E60A00042B73 /* MERLIN */ = {isa = PBXFileReference; lastKnownFileType = file; path = MERLIN; sourceTree = "<group>"; };
+		A253B39D1D76E60A00042B73 /* MISSILE */ = {isa = PBXFileReference; lastKnownFileType = file; path = MISSILE; sourceTree = "<group>"; };
+		A253B39E1D76E60A00042B73 /* PONG */ = {isa = PBXFileReference; lastKnownFileType = file; path = PONG; sourceTree = "<group>"; };
+		A253B39F1D76E60A00042B73 /* PONG2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = PONG2; sourceTree = "<group>"; };
+		A253B3A01D76E60A00042B73 /* PUZZLE */ = {isa = PBXFileReference; lastKnownFileType = file; path = PUZZLE; sourceTree = "<group>"; };
+		A253B3A11D76E60A00042B73 /* SYZYGY */ = {isa = PBXFileReference; lastKnownFileType = file; path = SYZYGY; sourceTree = "<group>"; };
+		A253B3A21D76E60A00042B73 /* TANK */ = {isa = PBXFileReference; lastKnownFileType = file; path = TANK; sourceTree = "<group>"; };
+		A253B3A31D76E60A00042B73 /* TETRIS */ = {isa = PBXFileReference; lastKnownFileType = file; path = TETRIS; sourceTree = "<group>"; };
+		A253B3A41D76E60A00042B73 /* TICTAC */ = {isa = PBXFileReference; lastKnownFileType = file; path = TICTAC; sourceTree = "<group>"; };
+		A253B3A51D76E60A00042B73 /* UFO */ = {isa = PBXFileReference; lastKnownFileType = file; path = UFO; sourceTree = "<group>"; };
+		A253B3A61D76E60A00042B73 /* VBRIX */ = {isa = PBXFileReference; lastKnownFileType = file; path = VBRIX; sourceTree = "<group>"; };
+		A253B3A71D76E60A00042B73 /* VERS */ = {isa = PBXFileReference; lastKnownFileType = file; path = VERS; sourceTree = "<group>"; };
+		A253B3A81D76E60A00042B73 /* WIPEOFF */ = {isa = PBXFileReference; lastKnownFileType = file; path = WIPEOFF; sourceTree = "<group>"; };
+		A253B3C01D76E67000042B73 /* Chip8Emulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chip8Emulator.h; sourceTree = "<group>"; };
+		A253B3C11D76E67000042B73 /* Chip8Emulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chip8Emulator.m; sourceTree = "<group>"; };
+		A28BD1C31D76E31F001F9ECF /* Chip8iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chip8iPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A28BD1C71D76E31F001F9ECF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A28BD1C91D76E31F001F9ECF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A28BD1CA1D76E31F001F9ECF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A28BD1CC1D76E31F001F9ECF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A28BD1CD1D76E31F001F9ECF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A28BD1D01D76E31F001F9ECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A28BD1D21D76E31F001F9ECF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A28BD1D51D76E31F001F9ECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A28BD1D71D76E31F001F9ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A28BD1DC1D76E31F001F9ECF /* Chip8iPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chip8iPhoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A28BD1E01D76E31F001F9ECF /* Chip8iPhoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chip8iPhoneTests.m; sourceTree = "<group>"; };
+		A28BD1E21D76E31F001F9ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A28BD1E71D76E31F001F9ECF /* Chip8iPhoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chip8iPhoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A28BD1EB1D76E31F001F9ECF /* Chip8iPhoneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chip8iPhoneUITests.m; sourceTree = "<group>"; };
+		A28BD1ED1D76E31F001F9ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A28BD1C01D76E31F001F9ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28BD1D91D76E31F001F9ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28BD1E41D76E31F001F9ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A253B3911D76E60A00042B73 /* c8games */ = {
+			isa = PBXGroup;
+			children = (
+				A253B3921D76E60A00042B73 /* 15PUZZLE */,
+				A253B3931D76E60A00042B73 /* BLINKY */,
+				A253B3941D76E60A00042B73 /* BLITZ */,
+				A253B3951D76E60A00042B73 /* BRIX */,
+				A253B3961D76E60A00042B73 /* CONNECT4 */,
+				A253B3971D76E60A00042B73 /* GUESS */,
+				A253B3981D76E60A00042B73 /* HIDDEN */,
+				A253B3991D76E60A00042B73 /* INVADERS */,
+				A253B39A1D76E60A00042B73 /* KALEID */,
+				A253B39B1D76E60A00042B73 /* MAZE */,
+				A253B39C1D76E60A00042B73 /* MERLIN */,
+				A253B39D1D76E60A00042B73 /* MISSILE */,
+				A253B39E1D76E60A00042B73 /* PONG */,
+				A253B39F1D76E60A00042B73 /* PONG2 */,
+				A253B3A01D76E60A00042B73 /* PUZZLE */,
+				A253B3A11D76E60A00042B73 /* SYZYGY */,
+				A253B3A21D76E60A00042B73 /* TANK */,
+				A253B3A31D76E60A00042B73 /* TETRIS */,
+				A253B3A41D76E60A00042B73 /* TICTAC */,
+				A253B3A51D76E60A00042B73 /* UFO */,
+				A253B3A61D76E60A00042B73 /* VBRIX */,
+				A253B3A71D76E60A00042B73 /* VERS */,
+				A253B3A81D76E60A00042B73 /* WIPEOFF */,
+			);
+			path = c8games;
+			sourceTree = "<group>";
+		};
+		A28BD1BA1D76E31F001F9ECF = {
+			isa = PBXGroup;
+			children = (
+				A28BD1C51D76E31F001F9ECF /* Chip8iPhone */,
+				A28BD1DF1D76E31F001F9ECF /* Chip8iPhoneTests */,
+				A28BD1EA1D76E31F001F9ECF /* Chip8iPhoneUITests */,
+				A28BD1C41D76E31F001F9ECF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A28BD1C41D76E31F001F9ECF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A28BD1C31D76E31F001F9ECF /* Chip8iPhone.app */,
+				A28BD1DC1D76E31F001F9ECF /* Chip8iPhoneTests.xctest */,
+				A28BD1E71D76E31F001F9ECF /* Chip8iPhoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A28BD1C51D76E31F001F9ECF /* Chip8iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				A253B3911D76E60A00042B73 /* c8games */,
+				A253B3C01D76E67000042B73 /* Chip8Emulator.h */,
+				A253B3C11D76E67000042B73 /* Chip8Emulator.m */,
+				A28BD1C91D76E31F001F9ECF /* AppDelegate.h */,
+				A28BD1CA1D76E31F001F9ECF /* AppDelegate.m */,
+				A28BD1CC1D76E31F001F9ECF /* ViewController.h */,
+				A28BD1CD1D76E31F001F9ECF /* ViewController.m */,
+				A28BD1CF1D76E31F001F9ECF /* Main.storyboard */,
+				A28BD1D21D76E31F001F9ECF /* Assets.xcassets */,
+				A28BD1D41D76E31F001F9ECF /* LaunchScreen.storyboard */,
+				A28BD1D71D76E31F001F9ECF /* Info.plist */,
+				A28BD1C61D76E31F001F9ECF /* Supporting Files */,
+			);
+			path = Chip8iPhone;
+			sourceTree = "<group>";
+		};
+		A28BD1C61D76E31F001F9ECF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A28BD1C71D76E31F001F9ECF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A28BD1DF1D76E31F001F9ECF /* Chip8iPhoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				A28BD1E01D76E31F001F9ECF /* Chip8iPhoneTests.m */,
+				A28BD1E21D76E31F001F9ECF /* Info.plist */,
+			);
+			path = Chip8iPhoneTests;
+			sourceTree = "<group>";
+		};
+		A28BD1EA1D76E31F001F9ECF /* Chip8iPhoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A28BD1EB1D76E31F001F9ECF /* Chip8iPhoneUITests.m */,
+				A28BD1ED1D76E31F001F9ECF /* Info.plist */,
+			);
+			path = Chip8iPhoneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A28BD1C21D76E31F001F9ECF /* Chip8iPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A28BD1F01D76E31F001F9ECF /* Build configuration list for PBXNativeTarget "Chip8iPhone" */;
+			buildPhases = (
+				A28BD1BF1D76E31F001F9ECF /* Sources */,
+				A28BD1C01D76E31F001F9ECF /* Frameworks */,
+				A28BD1C11D76E31F001F9ECF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chip8iPhone;
+			productName = Chip8iPhone;
+			productReference = A28BD1C31D76E31F001F9ECF /* Chip8iPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A28BD1DB1D76E31F001F9ECF /* Chip8iPhoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A28BD1F31D76E31F001F9ECF /* Build configuration list for PBXNativeTarget "Chip8iPhoneTests" */;
+			buildPhases = (
+				A28BD1D81D76E31F001F9ECF /* Sources */,
+				A28BD1D91D76E31F001F9ECF /* Frameworks */,
+				A28BD1DA1D76E31F001F9ECF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A28BD1DE1D76E31F001F9ECF /* PBXTargetDependency */,
+			);
+			name = Chip8iPhoneTests;
+			productName = Chip8iPhoneTests;
+			productReference = A28BD1DC1D76E31F001F9ECF /* Chip8iPhoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A28BD1E61D76E31F001F9ECF /* Chip8iPhoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A28BD1F61D76E31F001F9ECF /* Build configuration list for PBXNativeTarget "Chip8iPhoneUITests" */;
+			buildPhases = (
+				A28BD1E31D76E31F001F9ECF /* Sources */,
+				A28BD1E41D76E31F001F9ECF /* Frameworks */,
+				A28BD1E51D76E31F001F9ECF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A28BD1E91D76E31F001F9ECF /* PBXTargetDependency */,
+			);
+			name = Chip8iPhoneUITests;
+			productName = Chip8iPhoneUITests;
+			productReference = A28BD1E71D76E31F001F9ECF /* Chip8iPhoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A28BD1BB1D76E31F001F9ECF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = com.arvin;
+				TargetAttributes = {
+					A28BD1C21D76E31F001F9ECF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 92MPBCZ793;
+					};
+					A28BD1DB1D76E31F001F9ECF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A28BD1C21D76E31F001F9ECF;
+					};
+					A28BD1E61D76E31F001F9ECF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A28BD1C21D76E31F001F9ECF;
+					};
+				};
+			};
+			buildConfigurationList = A28BD1BE1D76E31F001F9ECF /* Build configuration list for PBXProject "Chip8iPhone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A28BD1BA1D76E31F001F9ECF;
+			productRefGroup = A28BD1C41D76E31F001F9ECF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A28BD1C21D76E31F001F9ECF /* Chip8iPhone */,
+				A28BD1DB1D76E31F001F9ECF /* Chip8iPhoneTests */,
+				A28BD1E61D76E31F001F9ECF /* Chip8iPhoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A28BD1C11D76E31F001F9ECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A253B3BD1D76E60A00042B73 /* VBRIX in Resources */,
+				A253B3AF1D76E60A00042B73 /* HIDDEN in Resources */,
+				A253B3BE1D76E60A00042B73 /* VERS in Resources */,
+				A253B3B61D76E60A00042B73 /* PONG2 in Resources */,
+				A253B3B21D76E60A00042B73 /* MAZE in Resources */,
+				A253B3AC1D76E60A00042B73 /* BRIX in Resources */,
+				A253B3B81D76E60A00042B73 /* SYZYGY in Resources */,
+				A253B3BF1D76E60A00042B73 /* WIPEOFF in Resources */,
+				A253B3AB1D76E60A00042B73 /* BLITZ in Resources */,
+				A253B3B91D76E60A00042B73 /* TANK in Resources */,
+				A253B3AA1D76E60A00042B73 /* BLINKY in Resources */,
+				A253B3B31D76E60A00042B73 /* MERLIN in Resources */,
+				A253B3B41D76E60A00042B73 /* MISSILE in Resources */,
+				A253B3BA1D76E60A00042B73 /* TETRIS in Resources */,
+				A253B3B71D76E60A00042B73 /* PUZZLE in Resources */,
+				A253B3B11D76E60A00042B73 /* KALEID in Resources */,
+				A253B3B51D76E60A00042B73 /* PONG in Resources */,
+				A253B3A91D76E60A00042B73 /* 15PUZZLE in Resources */,
+				A253B3B01D76E60A00042B73 /* INVADERS in Resources */,
+				A253B3BB1D76E60A00042B73 /* TICTAC in Resources */,
+				A28BD1D61D76E31F001F9ECF /* LaunchScreen.storyboard in Resources */,
+				A253B3BC1D76E60A00042B73 /* UFO in Resources */,
+				A28BD1D31D76E31F001F9ECF /* Assets.xcassets in Resources */,
+				A253B3AE1D76E60A00042B73 /* GUESS in Resources */,
+				A253B3AD1D76E60A00042B73 /* CONNECT4 in Resources */,
+				A28BD1D11D76E31F001F9ECF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28BD1DA1D76E31F001F9ECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28BD1E51D76E31F001F9ECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A28BD1BF1D76E31F001F9ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28BD1CE1D76E31F001F9ECF /* ViewController.m in Sources */,
+				A28BD1CB1D76E31F001F9ECF /* AppDelegate.m in Sources */,
+				A28BD1C81D76E31F001F9ECF /* main.m in Sources */,
+				A253B3C21D76E67000042B73 /* Chip8Emulator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28BD1D81D76E31F001F9ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28BD1E11D76E31F001F9ECF /* Chip8iPhoneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28BD1E31D76E31F001F9ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28BD1EC1D76E31F001F9ECF /* Chip8iPhoneUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A28BD1DE1D76E31F001F9ECF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A28BD1C21D76E31F001F9ECF /* Chip8iPhone */;
+			targetProxy = A28BD1DD1D76E31F001F9ECF /* PBXContainerItemProxy */;
+		};
+		A28BD1E91D76E31F001F9ECF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A28BD1C21D76E31F001F9ECF /* Chip8iPhone */;
+			targetProxy = A28BD1E81D76E31F001F9ECF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A28BD1CF1D76E31F001F9ECF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A28BD1D01D76E31F001F9ECF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A28BD1D41D76E31F001F9ECF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A28BD1D51D76E31F001F9ECF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A28BD1EE1D76E31F001F9ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A28BD1EF1D76E31F001F9ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A28BD1F11D76E31F001F9ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Chip8iPhone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arvin.Chip8iPhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		A28BD1F21D76E31F001F9ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Chip8iPhone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arvin.Chip8iPhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		A28BD1F41D76E31F001F9ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Chip8iPhoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arvin.Chip8iPhoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chip8iPhone.app/Chip8iPhone";
+			};
+			name = Debug;
+		};
+		A28BD1F51D76E31F001F9ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Chip8iPhoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arvin.Chip8iPhoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chip8iPhone.app/Chip8iPhone";
+			};
+			name = Release;
+		};
+		A28BD1F71D76E31F001F9ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Chip8iPhoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arvin.Chip8iPhoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Chip8iPhone;
+			};
+			name = Debug;
+		};
+		A28BD1F81D76E31F001F9ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Chip8iPhoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arvin.Chip8iPhoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Chip8iPhone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A28BD1BE1D76E31F001F9ECF /* Build configuration list for PBXProject "Chip8iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A28BD1EE1D76E31F001F9ECF /* Debug */,
+				A28BD1EF1D76E31F001F9ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A28BD1F01D76E31F001F9ECF /* Build configuration list for PBXNativeTarget "Chip8iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A28BD1F11D76E31F001F9ECF /* Debug */,
+				A28BD1F21D76E31F001F9ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A28BD1F31D76E31F001F9ECF /* Build configuration list for PBXNativeTarget "Chip8iPhoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A28BD1F41D76E31F001F9ECF /* Debug */,
+				A28BD1F51D76E31F001F9ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A28BD1F61D76E31F001F9ECF /* Build configuration list for PBXNativeTarget "Chip8iPhoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A28BD1F71D76E31F001F9ECF /* Debug */,
+				A28BD1F81D76E31F001F9ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A28BD1BB1D76E31F001F9ECF /* Project object */;
+}
